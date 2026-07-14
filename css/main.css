@@ -554,6 +554,7 @@ h2 {
    gap: 24px;
 }
 
+.faq__button,
 .testimonials__nav-button,
 .video_guides__nav-button {
    display: inline-flex;
@@ -792,6 +793,35 @@ h2 {
 
 .testimonials__user-feedback {
    margin-top: 24px;
+   line-height: 1.35;
+}
+
+.faq {
+   margin-top: 150px;
+}
+
+.faq__cards {
+   display: grid;
+   margin-top: 40px;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 80px;
+   row-gap: 32px;
+}
+
+.faq__card {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px;
+   width: 638px;
+   height: 136px;
+   border: 2px solid #68D9F533;
+   border-radius: 40px;
+   background-color: #151515;
+}
+
+.faq__content {
+   max-width: 400px;
    line-height: 1.35;
 }
 
